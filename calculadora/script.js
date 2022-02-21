@@ -157,8 +157,17 @@
 // delete maça.cor
 // console.log(maça);
 
+
+
+// function clear (){
+//   result.
+// }
+
 const btn = document.querySelectorAll(".numero");
 const result = document.querySelector("#resultado");
+const operador = document.querySelectorAll(".operador")
+const apagar = document.querySelector('.apagar')
+const igual = document.querySelector('.igual')
 
 btn.forEach((button) => {
   button.onclick = (e) => {
@@ -167,4 +176,9 @@ btn.forEach((button) => {
   };
 });
 
-// btn[6].onclick("9")=
+operador.forEach((button) => {
+  button.onclick = (e) => {
+    if (result.innerText === "0") result.innerText = e.target.innerText;
+    else result.innerText += e.target.innerText;
+  };
+});
