@@ -11,14 +11,14 @@
     - Auxiliares - OK
 - Adicionar valores aos clicks - OK
   - Verificar os valores - OK
-- Criar lógica de soma - 
-  - Verificar lógica -
-- Criar lógica de subtração -
-  - Verificar lógica -
-- Criar lógica de divisão -
-  - Verificar lógica -
-- Criar lógica de multiplicação -
-  - Verificar lógica - 
+- Criar lógica de soma - OK
+  - Verificar lógica - OK
+- Criar lógica de subtração - OK
+  - Verificar lógica - OK
+- Criar lógica de divisão - OK
+  - Verificar lógica - OK
+- Criar lógica de multiplicação - OK
+  - Verificar lógica - OK
 - Criar lógica do display - OK
   - Verificar lógica - OK
 - Criar lógica do dot - OK
