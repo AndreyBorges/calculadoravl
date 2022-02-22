@@ -12,6 +12,7 @@
     - Auxiliares - OK
 - Adicionar valores aos clicks - OK
   - Verificar os valores - OK
+- Adicionar comportamento de On/Off - OK
 - Criar lógica de soma - OK
   - Verificar lógica - OK
 - Criar lógica de subtração - OK
@@ -24,4 +25,3 @@
   - Verificar lógica - OK
 - Criar lógica do dot - OK
   - Verificar lógica - OK
-- Adicionar comportamento de On/Off - OK

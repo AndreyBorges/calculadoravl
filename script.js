@@ -10,6 +10,7 @@ const values = [];
 let operator = "";
 let currentResult = 0;
 
+
 // * FUNÇÕES AUXILIARES
 const addClick = (element, func) => {
   element.addEventListener("click", func);
@@ -159,7 +160,7 @@ const handleResult = () => {
 // APLICADO O CONCEITO DE DESESTRUTURAÇÃO DE OBJETOS.
 const handleDot = ({ target }) => {
   display.innerText += target.innerText;
-  currentValue = display.innerText;
+  
 };
 // * FUNÇÃO DO CLEAR
 // APLICADO O CONCEITO DE DESESTRUTURAÇÃO DE OBJETOS.

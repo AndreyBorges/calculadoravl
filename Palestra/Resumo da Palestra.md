@@ -208,7 +208,7 @@ console.log(podecomprar);
     AND (&&) - Define que os dois valores existem, se um existir e o outro não ou os 2 não existirem ele retorna false, se os 2 existirem retorna true,
     Sendo que ele retorna o primeiro valor de false que encontrar ou o ultimo de true.
 
-    OR (| |) - Define que só um dos valores precisa existir para retornar verdadeiro e já captura este valor.
+    OR (||) - Define que só um dos valores precisa existir para retornar verdadeiro e já captura este valor.
 
    - COMO SÃO UTILIZADOS ?
 

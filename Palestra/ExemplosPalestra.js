@@ -197,3 +197,6 @@
 // console.log(estacionamento);
 
 /** Estruturas de Repetição */
+
+const number = document.querySelector('button')
+console.log(number)
