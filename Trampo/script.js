@@ -22,7 +22,6 @@ const removeClick = (element, func) => {
 // * FUNÇÃO DE NUMEROS
 // APLICADO O CONCEITO DE DESESTRUTURAÇÃO DE OBJETOS.
 const handleClickNumber = ({ target }) => {
-  //!TODO: LIDAR COM NÚMEROS
   switch (display.innerText) {
     case "0":
       display.innerText = target.innerText;
@@ -107,8 +106,7 @@ const handleClickOperator = ({ target }) => {
 };
 
 // * FUNÇÃO DE RESULTADO
-// APLICADO O CONCEITO DE DESESTRUTURAÇÃO DE OBJETOS.
-const handleResult = (event) => {
+const handleResult = () => {
   switch (operator) {
     case "+":
       values.push(+display.innerText);
@@ -166,7 +164,6 @@ const handleDot = ({ target }) => {
 // * FUNÇÃO DO CLEAR
 // APLICADO O CONCEITO DE DESESTRUTURAÇÃO DE OBJETOS.
 const handleClear = () => {
-  // !TODO: LIDAR COM AC
   values.length = 0;
   display.innerText = 0;
   currentResult = 0;
@@ -185,7 +182,7 @@ const handleDel = () => {
 
 // * FUNÇÃO ON/OFF
 // APLICADO O CONCEITO DE DESESTRUTURAÇÃO DE OBJETOS.
-const handleIsOn = ({ target }) => {
+const handleIsOn = ({target}) => {
   target.innerText = target.innerText === "on" ? "off" : "on";
   target.classList.toggle("change-mode");
 

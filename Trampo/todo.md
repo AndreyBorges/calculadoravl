@@ -3,6 +3,7 @@
 ## FIRST STEP
 
 - Definir comportamento da calculadora - OK
+- Comecei o HTML e CSS - OK
 - Trazer os elementos pro javascript - OK
 - Adicionar comportamento de click - OK
   - Verificar os comportamentos - OK
